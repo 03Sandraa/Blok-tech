@@ -5,6 +5,9 @@ In blok tech ga ik aan de slag met een feature voor een matching application. Ik
 ## De matching application
 Friendies, een plek waar mensen met dezelfde interesses aan elkaar worden gematcht. Bij een match kunnen de mensen met elkaar praten, afspreken, activiteiten plannen en online gamen. 
 
+## De gebruiker
+De gebruikers van de app bevinden zich in de leeftijdscategorie 18-35. De levens verschillen erg van elkaar, waar de een nog druk aan het studeren is, is de ander full-time aan het werk en heeft kinderen. Doordat de levens zo verschillend van elkaar kunnen zijn kan dit als een versterkende factor werken, zij kunnen elkaar inspireren en motiveren. De verbindende factor is de interesse die de mensen opgeven. 
+
 ### Job stories en requirements
 * Wanneer ik me wat alleen voel, wil ik een plek hebben waar ik in contact kan komen met andere mensen, zodat ik het gevoel heb dat ik niet alleen ben.
   * De gebruiker moet contact kunnen hebben met andere gebruikers (<b>chatfunctie, belfuctie, videobelfunctie</b>).
