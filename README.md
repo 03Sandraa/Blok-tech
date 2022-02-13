@@ -16,7 +16,7 @@ De gebruikers van de app bevinden zich in de leeftijdscategorie 18-35. De levens
   * De gebruiker moet zich kunnen aanmelden (<b>aanmeldfunctie</b>).
   * De gebruiker moet zich kunnen inloggen met een bestaand account (<b>inlogfunctie</b>)
   * De gebruiker moet zijn inloggegevens kunnen opvragen wanneer hij/zij deze is vergeten (<b>wachtwoord vergeten functie</b>).
-  * De gebruiker moet zijn profiel kunnen personaliseren (<b>foto's toevoegen, beschrijving/eigen tekst invoeren<b>).
+  * De gebruiker moet zijn profiel kunnen personaliseren (<b>foto's toevoegen, beschrijving/eigen tekst invoeren</b>).
   * De gebruiker moet zijn interesses kunnen aangeven (<b>keuze opties uit een breed assortiment mogelijke interesses</b>).
 * Wanneer ik nieuwe mensen wil leren kennen, wil ik een plek hebben waar ik aan mensen wordt gematcht die vergelijkbare interesses hebben, zodat wij een onderwerp hebben om over te praten en misschien wel een klink hebben met elkaar.
   * De gebruiker moet gematcht worden aan mensen met een gelijkwaardige interesse (<b>matchingfunctie</b>).
