@@ -57,7 +57,8 @@ Om te kijken hoe je de README professioneel kan samenstellen, heb ik gekeken naa
 * En worden de volgende onderwerpen besproken: certivicaten (met daarbij linkjes, learning platform, reporting bugs and issues, contributing en licenties.
 
 ## Licence onderzoek
-
+Als je een licentie gaat kiezen moet je aan een aantal dingen denken, zoals: wie geef je toegang tot je code en wie mag het gebruiken; werk je in een team of alleen; en wie mogen er verbeteringen doorvoeren?
+Voor dit project neem ik een MIT licence, hiervoor kies ik omdat het oke vind als andere mensen verder gaan met de code die ik heb geschreven.
 
 ## Version control onderzoek
 Waar wijzig ik mijn code
@@ -71,5 +72,6 @@ Waar wijzig ik mijn code
   <summary>Bronnen</summary>
   
   * https://git-scm.com/book/en/v2
+  * https://choosealicense.com/
   
 </details>
