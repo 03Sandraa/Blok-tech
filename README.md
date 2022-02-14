@@ -24,6 +24,7 @@ De gebruikers van de app bevinden zich in de leeftijdscategorie 18-35. De levens
 * Wanneer ik al een tijdje leuk contact heb met iemand, wil ik een leuke activiteit met hem/haar gaan doen, zodat wij elkaar nog beter leren kennen.
   * De gebruiker moet een activiteit in kunnen plannen samen met de andere persoon (<b>direct afspraak kunnen maken bij activiteit</b>).
   * De gebruiker moet zijn agenda kunnen vergelijken met de andere persoon, om een gezamelijk moment te vinden om af te spreken (<b>mogelijkheid om agenda te delen zonder inhoud (momenten beschikbaar/niet beschikbaar), vergelijkfunctie, het eerst volgende moment beide beschikbaar functie</b>).
+* Wanneer ik geen klik voel met de persoon waaraan ik ben gematcht, wil ik het contact met deze persoon verwijderen en gematcht worden aan andere mensen, zodat ik gematcht kan worden aan mensen waarmee ik misschien een betere zal hebben.
 * Wanneer ik al een aantal vrienden heb gemaakt, wil ik een groep kunnen vormen, zodat mijn vrienden vrienden kunnen worden, zodat wij een vriendengroep kunnen vormen en groepsactiviteiten kunnen doen.
   * De gebruiker moet groepen kunnen maken (<b>groep aanmaakfunctie</b>).
   * De gebruiker moet contact kunnen hebben met meerdere mensen in één kanaal (<b>groepschat/kanaal</b>).
