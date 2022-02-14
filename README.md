@@ -10,4 +10,4 @@ In blok tech ga ik aan de slag met een feature voor een matching application. Ik
 Friendies, een plek waar mensen met dezelfde interesses aan elkaar worden gematcht. Bij een match kunnen de mensen met elkaar praten, afspreken, activiteiten plannen en online gamen. 
 
 ## license
-Dit project heeft een MIT license en iedereen is vrij om mijn code te gebruiken en eigen varriaties hierop te maken.
+Dit project heeft een [MIT license](https://github.com/03Sandraa/Blok-tech/blob/main/LICENSE.md) en iedereen is vrij om mijn code te gebruiken en eigen varriaties hierop te maken.
