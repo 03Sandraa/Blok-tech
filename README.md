@@ -20,6 +20,8 @@ De gebruikers van de app bevinden zich in de leeftijdscategorie 18-35. De levens
   * De gebruiker moet zijn interesses kunnen aangeven (<b>keuze opties uit een breed assortiment mogelijke interesses</b>).
 * Wanneer ik nieuwe mensen wil leren kennen, wil ik een plek hebben waar ik aan mensen wordt gematcht die vergelijkbare interesses hebben, zodat wij een onderwerp hebben om over te praten en misschien wel een klink hebben met elkaar.
   * De gebruiker moet gematcht worden aan mensen met een gelijkwaardige interesse (<b>matchingfunctie</b>).
+* Wanneer er mensen zijn waar ik aan gematcht kan worden, wil ik zelf kunnen kiezen met wie ik zou willen matchen, zodat ik met mensen match met wie ik dat wil.
+  * De gebruiker moet zelf in controle zijn over zijn/haar matches (<b>lijst met gevonden matches, mogelijkheid om mensen uit je lijst te verwijderen</b>).
 * Wanneer ik gematcht ben met iemand, wil ik deze persoon leren kennen, zodat ik goed kan beoordelen of deze persoon bij mij past en kan ik eventueel vrienden met hem/haar worden.
 * Wanneer ik al een tijdje leuk contact heb met iemand, wil ik een leuke activiteit met hem/haar gaan doen, zodat wij elkaar nog beter leren kennen.
   * De gebruiker moet een activiteit in kunnen plannen samen met de andere persoon (<b>direct afspraak kunnen maken bij activiteit</b>).
