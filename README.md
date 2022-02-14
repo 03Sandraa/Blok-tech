@@ -45,16 +45,26 @@ Om te kijken hoe je de README professioneel kan samenstellen, heb ik gekeken naa
 * Heeft de volgende content in zich: support, release types, security, mensen die hebben bijgedragen aan het project.
 
 [<b>Visual Studio Code</b>](https://github.com/microsoft/vscode/blob/main/README.md)
-* Begint met titel en meteen daar onder de blokjes met feature-request issues, bug issues en chat.
+* Begint met titel en meteen daar onder de labels met feature-request issues, bug issues en chat.
 * Vervolgens wordt er beschreven wat er in de repository gebeurt.
 * Dan een introductie van Visual Studio Code.
 * Verder worden de volgende punten behandeld: contributing, feedback, related projects, bundled extensions en licenties.
 
 [<b>freeCodeCamp</b>](https://github.com/freeCodeCamp/freeCodeCamp/blob/main/README.md)
 * Begint met een afbeeling met het naam van het project erin.
-* Daaronder worden verschillende tags getoont, onder andere chat en code helpers.
+* Daaronder worden verschillende labels getoont, onder andere chat en code helpers.
 * Vervolgens komt de inhoudsopgave.
 * En worden de volgende onderwerpen besproken: certivicaten (met daarbij linkjes, learning platform, reporting bugs and issues, contributing en licenties.
+
+## Licence onderzoek
+
+
+## Version control onderzoek
+Waar wijzig ik mijn code
+* Web interface (op github) - Ga ik gebruiken om mijn README en wiki te maken/bii te werken. Voor de rest is deze niet goed bruikbaar.
+* GLI (goed om het te leren) - Omdat ik nog nieuw ben in het programmeren op deze manier, begin ik dit project met het gebruik van GLI.
+* GUI (neemt veel werk uit handen, maar geeft minder duidelijke feedback) - Dit ga ik vooral gebruiken voor HTML en CSS.
+
 
 ## Onderzoeksbronnen
 <details>
