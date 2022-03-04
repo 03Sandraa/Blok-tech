@@ -1,16 +1,21 @@
 {
   "name": "js",
   "version": "1.0.0",
-  "description": "",
+  "description": "Matched mensen aan elkaar",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Sandra Heijnekamp (https://github.com/03Sandraa)",
+  "contributors": [
+    "Sandra Heijnekamp (https://github.com/03Sandraa)"
+  ],
+  "repository": "03Sandra/Blok-tech",
   "dependencies": {
+    "body-parser": "^1.19.2",
     "express": "^4.17.2",
-    "express-handlebars": "^6.0.2"
+    "express-handlebars": "^6.0.2",
+    "multer": "^1.4.4"
   }
 }
