@@ -1,3 +1,200 @@
-p, a, h1, h2, h3, h4{
+:root{
+    --HeaderBackground: #ffffff;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p, a, h1, h2, h3, h4, textarea{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+p, a, textarea{
+    font-size: 3em;
+}
+
+h1{
+    font-size: 3.5em;
+}
+
+section{
+    max-width: 95%;
+    margin: auto;
+}
+
+
+
+
+/* ------ Start header styling ------ */
+
+header{
+    height: 8em;
+    background-color: var(--HeaderBackground);
+
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header nav button{
+    border: none;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 6em;
+    width: 8em;
+    margin: 0 0 0 1em;
+    padding: 1em;
+    cursor: pointer;
+}
+
+header img{
+    border-radius: 100px;
+    width: 6em;
+    margin: 0 1em 0 0;
+}
+
+
+/* ------ Animatie - Gekopieerd van eigen voorgaande project ------ */
+header button.closed img:nth-of-type(1) {
+    animation: hamburgerCloseBoven 1s both;
+}
+  
+header button.closed img:nth-of-type(2){
+    opacity: 1;
+    animation-duration: 2s;
+}
+  
+header button.closed img:nth-of-type(3) {
+    animation: hamburgerCloseOnder 1s both;
+}
+  
+header button.open img:nth-of-type(1) {
+    animation: hamburgerOpenBoven 1s both;
+}
+  
+header button.open img:nth-of-type(2){
+    opacity: 0;
+    animation-duration: 1s;
+}
+  
+header button.open img:nth-of-type(3) {
+    animation: hamburgerOpenOnder 1s both;
+}
+
+@keyframes hamburgerOpenBoven {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(45deg) translate(1em, 1.3em);
+    }
+}
+  
+@keyframes hamburgerOpenOnder {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(-45deg) translate(1em, -1.3em);
+    }
+  }
+  
+  @keyframes hamburgerCloseBoven {
+    0% {
+        transform: rotate(45deg) translate(1em, 1.3em);
+    }
+  
+    100% {
+      transform: rotate(0deg) translate(0, 0);
+    }
+  }
+  
+  @keyframes hamburgerCloseOnder {
+    0% {
+        transform: rotate(-45deg) translate(1em, -1.3em);
+    }
+  
+    100% {
+      transform: rotate(0deg) translate(0, 0);
+    }
+  }
+/* ------ End Animatie - gekopieerd van eigen voorgaande project ------ */
+
+/* ------ End header styling ------ */
+
+
+
+
+/* ------ Start profielpagina styling ------ */
+
+.bodyJouProfiel{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bodyJouProfiel h1{
+    margin: 0.3em 0 0.6em 0;
+}
+
+.bodyJouProfiel .eigenProfielfotoGr{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.bodyJouProfiel form input{
+    background-color: transparent;
+    border: none;
+    font-size: 3em;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+/* --- Begin - mbv : https://css-tricks.com/the-cleanest-trick-for-autogrowing-textareas/ --- */
+
+.bodyJouProfiel .grow-wrap{
+    display: grid;
+}
+
+.bodyJouProfiel .grow-wrap::after{
+    content: attr(data-replicated-value) " ";
+    white-space: pre-wrap;
+    visibility: hidden;
+}
+
+.bodyJouProfiel .grow-wrap > textarea{
+    resize: none;
+    overflow: hidden;
+}
+
+.bodyJouProfiel .grow-wrap > textarea, .bodyJouProfiel .grow-wrap::after{
+    border: none;
+    padding: 0;
+    font: inherit;
+    font-size: 3em;
+    grid-area: 1 / 1 / 2 / 2;
+}
+/* --- End - mbv : https://css-tricks.com/the-cleanest-trick-for-autogrowing-textareas/ --- */
+
+/* ------ end profielpagina styling ------ */
+
+
+
+
+.hidden{
+    display: none;
 }

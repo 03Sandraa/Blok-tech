@@ -1,5 +1,13 @@
-<h1>Jouw profiel</h1>
+<section class="bodyJouProfiel"><h1>Jouw profiel</h1>
 
-<img src="../public/assets/images/profielpic1.jpg" alt="Eigen profielfoto">
+<img src="/images/profielpic1.jpg" alt="Eigen profielfoto" class="eigenProfielfotoGr">
 
-<p class="roepnaam">Emily</p>
+<form action="">
+    <input type="text" id="froepnaam" name="froepnaam" value="" wrap="soft" placeholder="Wat is jou naam?">
+    {{!-- <input type="textarea" id="fomschrijving" name="fomschrijving" value="" wrap="soft" placeholder="Vertel iets over jezelf"> --}}
+    <div class="grow-wrap"><textarea id="fomschrijving" name="fomschrijving" wrap="soft" value="" placeholder="Vertel iets over jezelf" onInput="this.parentNode.dataset.replicatedValue = this.value">
+    </textarea></div>
+</form>
+
+
+</section>
