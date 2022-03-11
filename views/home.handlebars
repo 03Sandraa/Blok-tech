@@ -1,7 +1,10 @@
 <section class="bodyJouProfiel"><h1>Jouw profiel</h1>
 
-<img src="{{user.profielfoto}}" alt="Eigen profielfoto" class="eigenProfielfotoGr">
+<div class="profielfotoDiv"><img src="{{user.profielfoto}}" alt="Eigen profielfoto" name="avatar" class="eigenProfielfotoGr"></div>
 
+<form action="/avatar" method="post" enctype="multipart/form-data">
+    <input type="file" name="avatar" accept=".jpeg" onchange="this.form.submit()">
+</form>
 <form action="/createprofile" method="post">
     <input type="text" id="froepnaam" name="roepnaam" value="{{user.roepnaam}}" placeholder="Wat is jou naam?" required>
     <div class="grow-wrap"><textarea id="fomschrijving" name="omschrijving" placeholder="Vertel iets over jezelf" onInput="this.parentNode.dataset.replicatedValue = this.value">{{user.omschrijving}}</textarea></div>
