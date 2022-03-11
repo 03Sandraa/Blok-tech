@@ -1,12 +1,11 @@
 <section class="bodyJouProfiel"><h1>Jouw profiel</h1>
 
-<img src="/images/profielpic1.jpg" alt="Eigen profielfoto" class="eigenProfielfotoGr">
+<img src="{{user.profielfoto}}" alt="Eigen profielfoto" class="eigenProfielfotoGr">
 
-<form action="">
-    <input type="text" id="froepnaam" name="froepnaam" value="" wrap="soft" placeholder="Wat is jou naam?">
-    {{!-- <input type="textarea" id="fomschrijving" name="fomschrijving" value="" wrap="soft" placeholder="Vertel iets over jezelf"> --}}
-    <div class="grow-wrap"><textarea id="fomschrijving" name="fomschrijving" wrap="soft" value="" placeholder="Vertel iets over jezelf" onInput="this.parentNode.dataset.replicatedValue = this.value">
-    </textarea></div>
+<form action="/createprofile" method="post">
+    <input type="text" id="froepnaam" name="roepnaam" value="{{user.roepnaam}}" placeholder="Wat is jou naam?" required>
+    <div class="grow-wrap"><textarea id="fomschrijving" name="omschrijving" placeholder="Vertel iets over jezelf" onInput="this.parentNode.dataset.replicatedValue = this.value">{{user.omschrijving}}</textarea></div>
+    <button>Opslaan</button>
 </form>
 
 
