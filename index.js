@@ -3,6 +3,8 @@ const app = express();
 const { engine } = require('express-handlebars');
 const path = require('path');
 const bodyParser = require('body-parser');
+const multer  = require('multer')
+const upload = multer({ dest: 'public/uploads/' })
 const PORT = 3000;
 
 // ------- Database config -------
@@ -39,7 +41,10 @@ app.use(bodyParser.json())
 app.get("/", onHome);
 app.get("/", onAbout);
 app.get("*", notFound);
+
 app.post("/createprofile", createprofile);
+app.post('/avatar', upload.single('avatar'), avatar);
+
 
 // ------- Database functies -------
 
@@ -92,6 +97,19 @@ async function createprofile(req, res){
     let user = await FindProfile(client, "0");
     res.render("home", {user});
 };
+
+async function avatar(req, res){
+    const avatar = await "uploads/" + req.file.filename;
+    
+    update(client, "0", {
+        "profielfoto" : avatar,
+    })
+
+    console.log(avatar);
+    let user = await FindProfile(client, "0");
+    res.render("home", {user});
+
+}
 
 // ------- Einde pagina render functies -------
 
