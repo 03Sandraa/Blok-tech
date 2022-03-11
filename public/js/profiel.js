@@ -1,7 +1,21 @@
-const profiel = {
-    roepnaam : "Emily",
-    omschrijving : "Hey mijn naam is Emily en ik ben dol op geiten.. bla bla bla bla"
-};
 
-const roepnaam = document.getElementById("froepnaam").value = profiel["roepnaam"];
-const omschrijving = document.getElementById("fomschrijving").value = profiel["omschrijving"];
+
+// const roepnaam = document.getElementById("froepnaam").value = profiel["roepnaam"];
+// const omschrijving = document.getElementById("fomschrijving").value = profiel["omschrijving"];
+// const buttonOpslaan = document.querySelector(".bodyJouProfiel form button");
+
+// const server = http.createServer(async(profiel, res) => {
+//     req.on("profiel", data => {
+//         Object.keys(profiel).forEach(key => {
+//             profiel[key] = data;
+//         })
+//     })
+// })
+
+// const bodyParser = require('body-parser');
+
+// app.use(bodyParser.text({ type: 'text/html' }));
+
+
+
+
