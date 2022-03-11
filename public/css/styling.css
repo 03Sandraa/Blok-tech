@@ -1,5 +1,9 @@
 :root{
     --HeaderBackground: #ffffff;
+    --ButtonColor: rgb(17, 166, 211);
+    --ButtonColorActive: #000;
+    --ButtonTextColor: rgb(255, 255, 255);
+    --ButtonTextColorActive: #000;
 }
 
 *,
@@ -27,6 +31,9 @@ section{
     margin: auto;
 }
 
+button{
+    cursor: pointer;
+}
 
 
 
@@ -144,6 +151,7 @@ header button.open img:nth-of-type(3) {
     width: 100%;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .bodyJouProfiel h1{
@@ -155,12 +163,30 @@ header button.open img:nth-of-type(3) {
     border-radius: 15px;
 }
 
+.bodyJouProfiel form{
+    margin: 0.5em 0 0 0;
+}
+
 .bodyJouProfiel form input{
     background-color: transparent;
     border: none;
+    border-radius: 5px;
     font-size: 3em;
     width: 100%;
     cursor: pointer;
+    padding: 0.2em;
+}
+
+.bodyJouProfiel form button{
+    padding: 0.5em 1em;
+    font-size: 2.5em;
+    border-radius: 20px;
+    border: none;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    color: var(--ButtonTextColor);
+    background-color: var(--ButtonColor);
 }
 
 
@@ -183,8 +209,9 @@ header button.open img:nth-of-type(3) {
 
 .bodyJouProfiel .grow-wrap > textarea, .bodyJouProfiel .grow-wrap::after{
     border: none;
-    padding: 0;
-    font: inherit;
+    border-radius: 5px;
+    padding: 0.2em;
+    font-family: Arial, Helvetica, sans-serif;;
     font-size: 3em;
     grid-area: 1 / 1 / 2 / 2;
 }
