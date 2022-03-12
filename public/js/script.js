@@ -2,15 +2,15 @@
 
 const buttonHamburgermenu = document.querySelector("header nav button");
 
-buttonHamburgermenu.addEventListener("click",openGebruikersmenu);
+buttonHamburgermenu.addEventListener("click", openGebruikersmenu);
 
 HamburgermenuStatus = 0;
 
-function openGebruikersmenu(){
-    if (HamburgermenuStatus == 0){
+function openGebruikersmenu() {
+    if (HamburgermenuStatus == 0) {
         buttonHamburgermenu.classList.add("open");
         HamburgermenuStatus = 1;
-    } else if (HamburgermenuStatus == 1){
+    } else if (HamburgermenuStatus == 1) {
         buttonHamburgermenu.classList.remove("open");
         buttonHamburgermenu.classList.add("closed");
         HamburgermenuStatus = 2;
