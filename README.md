@@ -49,6 +49,8 @@ await maakNieuwProfiel(client, [{
         profiel: "0",
     }])
 ```
+## Author
+Deze feature is gemaakt door [Sandra Heijnekamp](https://github.com/03Sandraa)
 
 ## Bijdrage
 Wil jij een bijdrage leveren aan die project? Dat kan! Friendies staat open voor suggessties en ideeën. Je kunt je bijdrage leveren doormiddel van een [issue](https://github.com/03Sandraa/Blok-tech/issues).
