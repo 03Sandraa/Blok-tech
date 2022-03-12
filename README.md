@@ -7,6 +7,11 @@ Friendies is een matching applicatie die mensen met dezelfde interesses aan elka
 
 ## Feature
 Bij friendies is het op dit moment mogelijk om je huidige profiel te bekijken en daar aanpassingen in te maken. Zo kun je je naam, omschrijving en profielfoto wijzigen.
+|  |
+| ------------- |
+| Naam toevoegen en aanpassen | 
+| Omschrijving toevoegen en aanpassen |
+| Profielfoto toevoegen en aanpassen |
 
 ## Documentatie
 De verdere documentatie is terug te lezen in de [wiki](https://github.com/03Sandraa/Blok-tech/wiki) van deze repository. 
