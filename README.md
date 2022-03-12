@@ -5,12 +5,12 @@
 # Friendies
 Friendies is een matching applicatie die mensen met dezelfde interesses aan elkaar matcht. Bij een match kunnen de mensen met elkaar praten, afspreken, activiteiten plannen en online gamen. 
 
-# Feature
+## Feature
 Bij friendies is het op dit moment mogelijk om je huidige profiel te bekijken en daar aanpassingen in te maken. Zo kun je je naam, omschrijving en profielfoto wijzigen.
 
-# Instalatie
+## Instalatie
 
-# Bijdrage
+## Bijdrage
 Wil jij een bijdrage leveren aan die project? Dat kan! Friendies staat open voor suggessties en ideeën. Je kunt je bijdrage leveren doormiddel van een [issue](https://github.com/03Sandraa/Blok-tech/issues).
 
 ## license
