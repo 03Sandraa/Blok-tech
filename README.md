@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/public/images/wiki-fotos/friendiesLogo.png">
+  <img src="public/wiki-fotos/friendiesLogo.jpg">
 </p>
 
 # Friendies
