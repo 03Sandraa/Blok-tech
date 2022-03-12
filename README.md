@@ -16,6 +16,7 @@ Bij friendies is het op dit moment mogelijk om je huidige profiel te bekijken en
 ## Documentatie
 De verdere documentatie is terug te lezen in de [wiki](https://github.com/03Sandraa/Blok-tech/wiki) van deze repository. 
 
+
 ## Instalatie
 Voor de instalatie van deze feature moet je de volgende stappen doorlopen:
 
@@ -43,7 +44,7 @@ npm start
 
 Stap 5: Maak een start object 
 
--> zet regel 80 t/m 82 aan (in index.js), sla het bestand op, start de localhost op en zet vervolgens regel 80 t/m 82 weer uit.
+-> zet regel 92 t/m 94 aan (in index.js), sla het bestand op, start de localhost op en zet vervolgens regel 92 t/m 94 weer uit.
 ```
 await maakNieuwProfiel(client, [{
         profiel: "0",
