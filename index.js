@@ -9,7 +9,7 @@ const multer = require('multer')
 const upload = multer({
     dest: 'public/uploads/'
 })
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // ------- Database config -------
 
