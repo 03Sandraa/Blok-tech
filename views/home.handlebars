@@ -1,13 +1,15 @@
 <section class="bodyJouProfiel">
+
     <h1>Jouw profiel</h1>
-
-    <div class="profielfotoDiv">
-        <img src="images/NoAvatar.jpg" alt="">
-        <img src="{{user.profielfoto}}" alt="Eigen profielfoto" name="avatar" class="eigenProfielfotoGr" onerror="this.style.display='none'">
-    </div>
-
     <form action="/avatar" method="post" enctype="multipart/form-data">
-        <input type="file" name="avatar" accept=".jpeg" onchange="this.form.submit()">
+        <div class="profielfotoDiv">
+            <img src="images/NoAvatar.jpg" alt="">
+            <img src="{{user.profielfoto}}" alt="Eigen profielfoto" name="avatar" class="eigenProfielfotoGr"
+                onerror="this.style.display='none'">
+            <button>Profielfoto wijzigen</button>
+            <input type="file" name="avatar" accept=".jpeg" onchange="this.form.submit()">
+        </div>
+        {{!-- <input type="file" name="avatar" accept=".jpeg" onchange="this.form.submit()"> --}}
     </form>
     <form action="/createprofile" method="post">
         <input type="text" id="froepnaam" name="roepnaam" value="{{user.roepnaam}}" placeholder="Wat is jou naam?"
@@ -18,6 +20,5 @@
         </div>
         <button>Opslaan</button>
     </form>
-
 
 </section>

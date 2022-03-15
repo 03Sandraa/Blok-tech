@@ -24,7 +24,7 @@ const client = new MongoClient(uri);
 
 async function connect() {
     try {
-        await client.connect();  
+    await client.connect();  
     } catch (error) {
         throw error;
     }
