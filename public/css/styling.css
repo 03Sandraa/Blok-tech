@@ -19,6 +19,7 @@
 
 p,
 a,
+li,
 h1,
 h2,
 h3,
@@ -31,6 +32,10 @@ p,
 a,
 textarea {
     font-size: 3em;
+}
+
+li{
+    list-style: none;
 }
 
 h1 {
@@ -46,6 +51,10 @@ button {
     cursor: pointer;
 }
 
+body{
+    position: relative;
+}
+
 
 
 /* ------ Start header styling ------ */
@@ -53,7 +62,6 @@ button {
 header {
     height: 8em;
     background-color: var(--HeaderBackground);
-
 }
 
 header nav {
@@ -74,6 +82,7 @@ header nav button {
     margin: 0 0 0 1em;
     padding: 1em;
     cursor: pointer;
+    z-index: 1000;
 }
 
 header div {
@@ -167,6 +176,26 @@ header button.open img:nth-of-type(3) {
     }
 }
 
+header ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(226, 239, 255, 0.884);
+    z-index: 100;
+}
+
+header ul li{
+    font-size: 3em;
+    margin: 2em 2.5em;
+
+}
+
+header ul li:first-of-type{
+    margin: 4em 2.5em 2em 2.5em;
+}
+
 /* ------ End Animatie - gekopieerd van eigen voorgaande project ------ */
 
 /* ------ End header styling ------ */
@@ -240,10 +269,15 @@ header button.open img:nth-of-type(3) {
     margin: 0.5em 0 0 0;
 }
 
+.bodyJouProfiel form:nth-of-type(2) input:invalid{
+    border: 2px solid #f17f7f;
+    background-color: #ffeeee;
+} 
+
 .bodyJouProfiel form:nth-of-type(2) input {
     background-color: transparent;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 3em;
     width: 100%;
     cursor: pointer;
@@ -296,7 +330,7 @@ header button.open img:nth-of-type(3) {
 .bodyJouProfiel .grow-wrap>textarea,
 .bodyJouProfiel .grow-wrap::after {
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 0.2em;
     font-family: Arial, Helvetica, sans-serif;
     color: #4e4e4e;
