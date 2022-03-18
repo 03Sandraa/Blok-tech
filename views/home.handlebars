@@ -3,9 +3,10 @@
     <h1>Jouw profiel</h1>
     <form action="/avatar" method="post" enctype="multipart/form-data">
         <div class="profielfotoDiv">
-            <img src="images/NoAvatar.jpg" alt="">
+            <img src="images/NoAvatar.jpg" alt="" class="stockFoto">
             <img src="{{user.profielfoto}}" alt="Eigen profielfoto" name="avatar" class="eigenProfielfotoGr"
                 onerror="this.style.display='none'">
+            <img src="images/icons/uploadicon.png" alt="" class="uploadFotoOverlay hidden">
             <button>Profielfoto wijzigen</button>
             <input type="file" name="avatar" accept=".jpeg" onchange="this.form.submit()">
         </div>
@@ -20,5 +21,4 @@
         </div>
         <button>Opslaan</button>
     </form>
-
 </section>

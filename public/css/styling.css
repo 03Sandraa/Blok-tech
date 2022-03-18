@@ -221,16 +221,25 @@ header ul li:first-of-type{
     overflow: hidden;
     border-radius: 15px;
     position: relative;
-}
-
-.bodyJouProfiel .profielfotoDiv::before:hover{
-    background-color: aqua;
+    z-index: 1;
 }
 
 .bodyJouProfiel .profielfotoDiv img[src="images/NoAvatar.jpg"]{
     position: absolute;
     height: 100%;
     z-index: -100;
+}
+
+.bodyJouProfiel .profielfotoDiv img[src="images/icons/uploadicon.png"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    opacity: 0.7;
+}
+
+.showUploadFotoOverlay{
+    opacity: 0.9;
 }
 
 .profielfotoDiv input{
@@ -353,3 +362,11 @@ header ul li:first-of-type{
 .hidden {
     display: none;
 }
+
+.transparent{
+    opacity: 75%;
+}
+
+/* .dragover{
+    opacity: 10%;
+}  */

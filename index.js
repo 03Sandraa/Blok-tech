@@ -24,7 +24,7 @@ const client = new MongoClient(uri);
 
 async function connect() {
     try {
-    await client.connect();  
+        await client.connect();  
     } catch (error) {
         throw error;
     }
@@ -91,15 +91,15 @@ async function onHome(req, res) {
     // await maakNieuwProfiel(client, [{
     //     profiel: "0",
     // }])
-};
+}
 
 function onAbout(req, res) {
     res.render("about");
-};
+}
 
 function notFound(req, res) {
     res.render("notfound");
-};
+}
 
 async function createprofile(req, res) {
 
@@ -112,7 +112,7 @@ async function createprofile(req, res) {
     res.render("home", {
         user
     });
-};
+}
 
 async function avatar(req, res) {
     const avatar = await "uploads/" + req.file.filename;
